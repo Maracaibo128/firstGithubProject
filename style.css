@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*--These are general styles---*/
+
+body {
+  margin: 0;
+  font-family: papyrus;
+  background-image: url(images/darkswirls.jpg);
+}
+
+
+header {
+  height: 140px;
+  font-size: 128px;
+  background-color: grey;
+  background-image: url(images/darkswirls.jpg);
+}
+
+.logo {
+  font-family: 'Courier New', cursive;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2{
+  font-family: 'Courier New', serif;
+  color: white;
+  margin: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+section {
+  padding: 0 25%;
+  margin: 80px 0;
+}
+
+
+/*-----Type------*/
+
+
+h1, h2, h3 {
+  font-family: helvetica;
+  color: grey;
+  text-align: center;
+  font-weight: 200px;
+}
+
+h1 { font-size: 28px;}
+h2 { font-size: 26px;}
+h3 { font-size: 24px;}
+
+p, li {
+  color: white;
+  font-family: 'Montserrat', serif;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:link {color: lightgreen;}
+a:visited {color: mediumpurple;}
+a:hover {color: greenyellow;}
+a:activate {color: red;}
+a:hover {text-decoration: underline;}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 3px;
+  margin: 0;
+}
+
+/* and way down here we have elements */
+
+img, iframe {
+  width: 100%
+}
