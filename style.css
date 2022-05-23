@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
 html, body {
   height: 100%;
   width: 100%;
@@ -7,22 +9,21 @@ html, body {
 
 body {
   margin: 0;
-  font-family: papyrus;
-  background-image: url(images/darkswirls.jpg);
+  font-family: "Helvetica Neue";
+  background-image: url(images/lightpaint.jpg);
 }
 
 
 header {
   height: 140px;
   font-size: 128px;
-  background-color: grey;
-  background-image: url(images/darkswirls.jpg);
+  background-image: url(images/lightpaint.jpg);
 }
 
 .logo {
-  font-family: 'Courier New', cursive;
+  font-family: "Architects Daughter", 'Courier New', cursive;
   font-size: 64px;
-  color: white;
+  color: black;
   text-align: center;
   letter-spacing: 0;
   margin: 0;
@@ -30,8 +31,8 @@ header {
 }
 
 header h2{
-  font-family: 'Courier New', serif;
-  color: white;
+  font-family: 'Architects Daughter', serif;
+  color: black;
   margin: 0px;
   font-size: 18px;
   text-align: center;
@@ -51,8 +52,8 @@ section {
 
 
 h1, h2, h3 {
-  font-family: helvetica;
-  color: grey;
+  font-family: 'Architects Daughter';
+  color: black;
   text-align: center;
   font-weight: 200px;
 }
@@ -62,10 +63,11 @@ h2 { font-size: 26px;}
 h3 { font-size: 24px;}
 
 p, li {
-  color: white;
-  font-family: 'Montserrat', serif;
+  color: black;
+  font-family: 'Architects Daughter', serif;
   line-height: 1.5em;
   margin-bottom: 0;
+  text-shadow: black;
 }
 
 a {
@@ -73,10 +75,10 @@ a {
   text-decoration: none;
 }
 
-a:link {color: lightgreen;}
-a:visited {color: mediumpurple;}
-a:hover {color: greenyellow;}
-a:activate {color: red;}
+a:link {color: darkblue;}
+a:visited {color: darkgreen}
+a:hover {color: red;}
+a:activate {color: grey}
 a:hover {text-decoration: underline;}
 
 em {
@@ -94,5 +96,7 @@ footer p {
 /* and way down here we have elements */
 
 img, iframe {
-  width: 100%
+  width: 75%;
+  border-radius: 8px;
+  border: 1px solid white;
 }
